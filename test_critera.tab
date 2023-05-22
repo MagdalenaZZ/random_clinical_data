@@ -1,0 +1,11 @@
+I/E	Categories	Cat-type	Distribution	Label	Comment
+U	female,male	Cat	0.5	Gender	# Subject gender
+I	healthy,unhealthy	Cat	0.9	Health	# Healthy male or female
+I	18-55	Float	Uniform	Age	# 18-55 years of age, inclusive
+I	50-110	Float	Poisson	Weight	# At least 50 kg in weight (males) and 45 kg in weight (females)
+I	110-210	Float	Poisson	Height	# Height of patients
+I	110-210	Float	Poisson	def_bmi	# BMI 18.5-30.0 kg/m2, inclusive
+I	0-5	Float	Normal	vIGA-AD	# Validated Investigator's Global Assessment (vIGA-AD) score of ≥ 3 (moderate)
+I	Yes,No	Cat	0.9	History	# History of inadequate response to treatment with topical medications (e.g., corticosteroids, calcineurin inhibitors, etc.) or subjects for whom topical treatments are otherwise medically inadvisable.
+E	Yes,No	Cat	0.1	Tobacco_use	# Use of tobacco products within 3 months prior to drug administration
+E	Yes,No	Cat	0.05	Drug_abuse	# History of alcohol abuse or drug abuse
